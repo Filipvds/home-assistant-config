@@ -1,0 +1,54 @@
+zone:
+  - name: !secret zone_house_name
+    latitude: !secret zone_house_latitude
+    longitude: !secret zone_house_longitude
+    radius: !secret zone_house_radius
+    icon: mdi:account-multiple
+
+  - name: School
+    latitude: !secret zone_school_latitude
+    longitude: !secret zone_school_longitude
+    radius: !secret zone_school_radius
+    icon: !secret zone_school_icon
+
+  - name: !secret zone_work_1_name
+    latitude: !secret zone_work_1_latitude
+    longitude: !secret zone_work_1_longitude
+    radius: !secret zone_work_1_radius
+    icon: !secret zone_work_1_icon
+
+  - name: !secret zone_work_2_name
+    latitude: !secret zone_work_2_latitude
+    longitude: !secret zone_work_2_longitude
+    radius: !secret zone_work_2_radius
+    icon: !secret zone_work_2_icon
+
+  - name: !secret zone_work_3_name
+    latitude: !secret zone_work_3_latitude
+    longitude: !secret zone_work_3_longitude
+    radius: !secret zone_work_3_radius
+    icon: !secret zone_work_3_icon
+
+  - name: !secret zone_family_1_name
+    latitude: !secret zone_family_1_latitude
+    longitude: !secret zone_family_1_longitude
+    radius: !secret zone_family_1_radius
+    icon: !secret zone_family_1_icon
+
+  - name: !secret zone_family_2_name
+    latitude: !secret zone_family_2_latitude
+    longitude: !secret zone_family_2_longitude
+    radius: !secret zone_family_2_radius
+    icon: !secret zone_family_2_icon
+
+  - name: !secret zone_family_3_name
+    latitude: !secret zone_family_3_latitude
+    longitude: !secret zone_family_3_longitude
+    radius: !secret zone_family_3_radius
+    icon: !secret zone_family_3_icon
+
+  - name: !secret zone_family_4_name
+    latitude: !secret zone_family_4_latitude
+    longitude: !secret zone_family_4_longitude
+    radius: !secret zone_family_4_radius
+    icon: !secret zone_family_4_icon
