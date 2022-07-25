@@ -1,0 +1,11 @@
+homeassistant:
+  name: !secret zone_house_name
+  latitude: !secret zone_house_latitude
+  longitude: !secret zone_house_longitude
+  elevation: !secret zone_house_elevation
+  unit_system: metric
+  time_zone: Europe/Brussels
+  currency: EUR
+  external_url: !secret ha_external_url
+  internal_url: !secret ha_internal_url
+  packages: !include_dir_named packages
