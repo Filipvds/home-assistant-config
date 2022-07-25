@@ -1,0 +1,19 @@
+# By default, ignore all files
+*
+
+# Add gitignore
+!.gitignore
+
+# Add markdown, yaml, scripts, files and immages
+!*.md
+!*.yaml
+!*.sh
+
+# Add following subfolders
+!packages
+!system
+
+# Ignore private files
+secrets.yaml
+known_devices.yaml
+entity_registry.yaml
